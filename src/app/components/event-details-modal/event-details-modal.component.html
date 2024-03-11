@@ -1,8 +1,10 @@
 <h2 mat-dialog-title>{{ event.title }}</h2>
 <mat-dialog-content>
   <p>{{ event.description }}</p>
-  <img [src]="event.image" alt="Event Image" *ngIf="event.image">
+  <img [src]="event.image" alt="Event Image" *ngIf="event.image"><br>
   <!-- Add more event details like videos and related resources here -->
+  <iframe class="mt-2" width="560" height="315" [src]="videoUrl" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 </mat-dialog-content>
 <mat-dialog-actions>
   <button mat-button class="btn btn-primary ml-2" (click)="closeDialog()">Close</button>
