@@ -11,8 +11,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## Other Modules used for better design
 
 ng add @angular/material 
+
 npm install primeflex
+
 npm install primeicons
+
 npm install primeng
 
 
