@@ -1,0 +1,38 @@
+.timeline {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .event {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .event:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .timeline-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .timeline-content h3 {
+    margin-top: 0;
+  }
+  
+  .timeline-content h4 {
+    margin-bottom: 5px;
+  }
+  
+  .timeline-content p {
+    margin: 0;
+  }
+  

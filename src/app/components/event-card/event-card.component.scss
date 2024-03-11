@@ -1,0 +1,17 @@
+.event-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .event-card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .event-card img {
+    max-width: 100%;
+  }
+  

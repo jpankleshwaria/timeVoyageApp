@@ -1,0 +1,9 @@
+<h2 mat-dialog-title>{{ event.title }}</h2>
+<mat-dialog-content>
+  <p>{{ event.description }}</p>
+  <img [src]="event.image" alt="Event Image" *ngIf="event.image">
+  <!-- Add more event details like videos and related resources here -->
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="closeDialog()">Close</button>
+</mat-dialog-actions>
